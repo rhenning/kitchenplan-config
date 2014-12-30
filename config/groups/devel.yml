@@ -1,9 +1,13 @@
+groups:
 recipes:
     mac_os_x:
         - applications::sublime_text_3
 attributes:
     homebrewalt:
         apps:
-            - git-flow
+            - awscli
+            - go
+            - rbenv
+            - ruby-build
         cask_apps:
-            - slack
+            - chefdk

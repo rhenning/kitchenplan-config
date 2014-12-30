@@ -1,12 +1,10 @@
 groups:
-    - devel
-    - productivity
 recipes:
     mac_os_x:
 attributes:
-    osxdefaults:
     homebrewalt:
         apps:
         cask_apps:
-          - evernote
-          - spotify
+            - 1password
+            - google-chrome
+            - hipchat
